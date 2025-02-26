@@ -37,8 +37,8 @@
 }
 
 @keyframes twinkle {
-    from { opacity: 0.3; }
-    to { opacity: 0.7; }
+    from { opacity: 0.4; }
+    to { opacity: 1; }
 }
 
 
@@ -91,18 +91,12 @@ img{
 }
 
 .down .line{
-    position: absolute;
     width: 240px;
     height: 5px;
     background-color: aliceblue;
     border-radius: 10px;
 }
 
-.down .survey{
-    display: flex;
-    flex-direction: column;
-
-}
 
 .down h1{
     font-size: 32px;

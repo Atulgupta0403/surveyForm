@@ -4,8 +4,6 @@ const right = document.querySelector(".arrow .right")
 const left = document.querySelector(".arrow .left")
 const heading = document.querySelector(".up h1")
 const heading2 = document.querySelector(".up .heading2 p")
-const icon = document.querySelectorAll(".up img")
-const iconLeft = document.querySelectorAll(".up nav .left img")
 const line = document.querySelector(".down .line")
 
 const starContainer = document.getElementById("stars-container");
@@ -71,7 +69,7 @@ createStars(500);
 
 gsap.from(heading, {
     scale: 0,
-    duration: 4,
+    duration: 3,
     ease: "none",
     // opacity : 0
 })
@@ -79,29 +77,15 @@ gsap.from(heading, {
 gsap.from(heading2, {
     y: 30,
     duration: 1,
-    delay: 3,
+    delay: 2.5,
 
 })
 
-gsap.to(icon, {
-    rotate: 360,
-    duration: 5,
-    repeat: -1,
-    ease: "linear",
-})
-
-gsap.to(iconLeft, {
-    rotate: -360,
-    duration: 7,
-    repeat: -1,
-    ease: "linear"
-
-})
 
 gsap.from(line, {
     width: 0,
     duration: 2,
-    delay: 5
+    delay: 3.5
 })
 
 
