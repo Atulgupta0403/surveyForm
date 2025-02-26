@@ -110,8 +110,8 @@ gsap.from(line, {
 position = 0;
 right.addEventListener("click", () => {
     console.log("position up bahar " + position )
-    if(position-332 > -332*8){
-        position -= 332;
+    if(position-330 > -330*8){
+        position -= 330;
         gsap.to(questions , {
             x : position,
             duration : 1
@@ -123,8 +123,8 @@ right.addEventListener("click", () => {
 left.addEventListener("click", () => {
     // position += 332;
     console.log("position down bahar " + position )
-    if(position+332 <= 0){
-        position += 332;
+    if(position+330 <= 0){
+        position += 330;
         gsap.to(questions , {
             x : position,
             duration : 1

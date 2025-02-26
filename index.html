@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,14 +20,227 @@
             </div>
         </div>
         <div class="down">
-            <h1>Survey form</h1>
-            <span class="line"></span>
+            <div class="survey">
+                <h1>Survey form</h1>
+                <span class="line"></span>
 
-            <p>Wear More, Spend Less - Your Opinion Matters!</p>
-            <p>Help Us Make College Fashion Smarter (and Cheaper)!</p>
+                <p>Wear More, Spend Less - Your Opinion Matters!</p>
+                <p>Help Us Make College Fashion Smarter (and Cheaper)!</p>
+            </div>
             <form action="">
-                <div class="questions">
+                <!-- <div class="questions">
 
+                    <div class="question">
+                        <p>Q1. What is your age?*</p>
+                        <div class="option">
+                            <input type="radio" id="Below 18" name="age" value="Below 18">
+                            <label for="Below 18">Below 18</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="radio" id="18 - 20" name="age" value="18 - 20">
+                            <label for="18 - 20">18 - 20</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="20 - 24" name="age" value="20 - 24">
+                            <label for="20 - 24">20 - 24</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="24 & above" name="age" value="24 & above">
+                            <label for="24 & above">24 & above</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q2. Gender*</p>
+                        <div class="option">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="radio" id="Female" name="gender" value="Female">
+                            <label for="Female">Female</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                        
+                    </div>
+
+                    <div class="question">
+                        <p>Q3. How often do you shop for clothes?*</p>
+                        <div class="option">
+                            <input type="radio" id="weekely" name="day" value="weekely">
+                            <label for="weekely">Weekely</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="radio" id="monthly" name="day" value="monthly">
+                            <label for="monthly">Monthly</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="once every few months" name="day" value="once every few months">
+                            <label for="once every few months">once every few months</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="Rarely" name="day" value="Rarely">
+                            <label for="Rarely">Rarely</label>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <div class="question">
+                        <p>Q4. What type of clothes do you usually buy? (Select all that apply)*</p>
+                        <div class="option">
+                            <input type="checkbox" id="casual wear" name="type" value="casual wear">
+                            <label for="casual wear">casual wear</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Formal Wear" name="type" value="Formal Wear">
+                            <label for="Formal Wear">Formal Wear</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Ethnic/traditional wear" name="type" value="Ethnic/traditional wear">
+                            <label for="Ethnic/traditional wear">Ethnic/traditional wear</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="party wear" name="type" value="party wear">
+                            <label for="party wear">party wear</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="sports wear" name="type" value="sports wear">
+                            <label for="sports wear">sports wear</label>
+                        </div>
+                        
+                    </div>
+
+                    <div class="question">
+                        <p>Q5. How often do you re-use trendy or occasion-specific outfits?*</p>
+                        <div class="option">
+                            <input type="radio" id="Frequently" name="re-use" value="Frequently">
+                            <label for="Frequently">Frequently</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="radio" id="Occasionally" name="re-use" value="Occasionally">
+                            <label for="Occasionally">Occasionally</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="Rarely" name="re-use" value="Rarely">
+                            <label for="Rarely">Rarely</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="Never" name="re-use" value="Never">
+                            <label for="Never">Never</label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Q6. Would you consider renting clothes in the future? *</p>
+                        <div class="option">
+                            <input type="radio" id="Yes" name="renting" value="Yes">
+                            <label for="Yes">Yes</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="radio" id="No" name="renting" value="No">
+                            <label for="No">No</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="radio" id="Maybe" name="renting" value="Maybe">
+                            <label for="Maybe">Maybe</label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>Q7. What would motivate you to rent clothes?*</p>
+                        <div class="option">
+                            <input type="checkbox" id="Affordable prices" name="type of motivation" value="Affordable prices">
+                            <label for="Affordable prices">Affordable prices</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Access to trendy outfits" name="type of motivation" value="Access to trendy outfits">
+                            <label for="Access to trendy outfits">Access to trendy outfits</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Variety of options" name="type of motivation" value="Variety of options">
+                            <label for="Variety of options">Variety of options</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Sustainability/enviromental concerns" name="type of motivation" value="Sustainability/enviromental concerns">
+                            <label for="Sustainability/enviromental concerns">Sustainability/enviromental concerns</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Convenience" name="type of motivation" value="Convenience">
+                            <label for="Convenience">Convenience</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="Others" name="type of motivation" value="Others">
+                            <label for="Others">Others</label>
+                        </div>
+                        
+                    </div>
+
+                    <div class="question">
+                        <p>Q8. What concerns do you have about renting clothes?*</p>
+                        <div class="option">
+                            <input type="checkbox" id="Hygiene and cleanliness" name="concerns" value="Hygiene and cleanliness">
+                            <label for="Hygiene and cleanliness">Hygiene and cleanliness</label>
+                        </div>
+                        
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Availability and desired sizes" name="concerns" value="Availability and desired sizes">
+                            <label for="Availability and desired sizes">Availability and desired sizes</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Limited styles and trends" name="concerns" value="Limited styles and trends">
+                            <label for="Limited styles and trends">Limited styles and trends</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="High rental costs" name="concerns" value="High rental costs">
+                            <label for="High rental costs">High rental costs</label>
+                        </div>
+                        <div class="option">
+                            
+                            <input type="checkbox" id="Delivery and return issues" name="concerns" value="Delivery and return issues">
+                            <label for="Delivery and return issues">Delivery and return issues</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="Others" name="concerns" value="Others">
+                            <label for="Others">Others</label>
+                        </div>
+                    </div>
+                </div> -->
+                <img class="poster" src="poster.svg" alt="">
+                <div class="questions">
                     <div class="question">
                         <p>Q1. What is your age?*</p>
                         <div class="option">
@@ -237,11 +452,13 @@
                 </div>
 
                 <div class="arrow">
-                    <p class="left"><</p>
-                    <p class="right">></p>
+                    <i  class="left fa-solid fa-arrow-left"></i>
+                    <i  class="right fa-solid fa-arrow-right"></i>
 
                 </div>
-                <button class="btn" type="submit">Submit</button>
+                <div class="submit">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
             </form>
         </div>
     </div>

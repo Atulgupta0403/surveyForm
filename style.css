@@ -86,7 +86,8 @@ img{
     background-color: black;
     color: aliceblue;
     padding: 20px;
-    /* width: 90%; */
+    display: flex;
+    flex-direction: column;
 }
 
 .down .line{
@@ -95,6 +96,12 @@ img{
     height: 5px;
     background-color: aliceblue;
     border-radius: 10px;
+}
+
+.down .survey{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .down h1{
@@ -127,71 +134,86 @@ form img{
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.questionss{
-    margin-top: 20px;
-    border-radius: 5px;
-    background-color: rgb(151, 154, 157);
-    display: flex;
-    color: black;
-    overflow: scroll;
-    padding: 10px 20px;
+.poster{
+    top: 50px;
+    /* margin-top: 100px; */
     position: relative;
-    top: -130px;
+
 }
 
 .questions{
-    margin-top: 20px;
+    bottom: 160px;
     border-radius: 5px;
-    background-color: aliceblue;
     display: flex;
-    color: black;
+    color: white;
     overflow: hidden;
+    /* color: white; */
     gap: 10px;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    /* background-color: green; */
 }
-
-.question p{
-    font-weight: 800;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-.question label{
-    font-weight: 100;
-    font-size: 18px;
-}
-
 
 form .question{
     min-width: 310px;
-    padding: 10px 10px 0px 0px ;
+    padding: 10px 10px 0px 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     transition: all linear 0.2;
-    /* background-color: red; */
+    position: relative;
 }
+
+
+.question p{
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.question label{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+
 
 .arrow{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
+    position: relative;
+    bottom: 130px;
+    /* background-color: red; */
 
 }
 
-.arrow p{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
+
+.arrow i{
+    font-size: 25px;
     color: black;
+    width: 40px;
+    height: 40px;
     background-color: white;
-    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    width: 100%;
+    position: relative;
+    bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 button{
+    background-color: aqua;
+    font-weight: 600;
     margin-top: 10px;
     padding: 10px 15px;
     border: 1px solid black;
